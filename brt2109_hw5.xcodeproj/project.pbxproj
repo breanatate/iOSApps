@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E37507A9204A764A00563662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37507A8204A764A00563662 /* AppDelegate.swift */; };
+		E37507AB204A764A00563662 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37507AA204A764A00563662 /* LoginViewController.swift */; };
+		E37507AE204A764A00563662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37507AC204A764A00563662 /* Main.storyboard */; };
+		E37507B0204A764A00563662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37507AF204A764A00563662 /* Assets.xcassets */; };
+		E37507B3204A764A00563662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37507B1204A764A00563662 /* LaunchScreen.storyboard */; };
+		E37507BE204A764A00563662 /* brt2109_hw5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37507BD204A764A00563662 /* brt2109_hw5Tests.swift */; };
+		E37507C9204A764A00563662 /* brt2109_hw5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37507C8204A764A00563662 /* brt2109_hw5UITests.swift */; };
+		E37507D7204A769800563662 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37507D6204A769800563662 /* TableViewController.swift */; };
+		E3E9FDD7204B079D00C71EEF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E9FDD6204B079D00C71EEF /* TableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E37507BA204A764A00563662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E375079D204A764A00563662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37507A4204A764A00563662;
+			remoteInfo = brt2109_hw5;
+		};
+		E37507C5204A764A00563662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E375079D204A764A00563662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37507A4204A764A00563662;
+			remoteInfo = brt2109_hw5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E37507A5204A764A00563662 /* brt2109_hw5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brt2109_hw5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37507A8204A764A00563662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E37507AA204A764A00563662 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E37507AD204A764A00563662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E37507AF204A764A00563662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E37507B2204A764A00563662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E37507B4204A764A00563662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37507B9204A764A00563662 /* brt2109_hw5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brt2109_hw5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37507BD204A764A00563662 /* brt2109_hw5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brt2109_hw5Tests.swift; sourceTree = "<group>"; };
+		E37507BF204A764A00563662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37507C4204A764A00563662 /* brt2109_hw5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brt2109_hw5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37507C8204A764A00563662 /* brt2109_hw5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brt2109_hw5UITests.swift; sourceTree = "<group>"; };
+		E37507CA204A764A00563662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37507D6204A769800563662 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E3E9FDD6204B079D00C71EEF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E37507A2204A764A00563662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37507B6204A764A00563662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37507C1204A764A00563662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E375079C204A764A00563662 = {
+			isa = PBXGroup;
+			children = (
+				E37507A7204A764A00563662 /* brt2109_hw5 */,
+				E37507BC204A764A00563662 /* brt2109_hw5Tests */,
+				E37507C7204A764A00563662 /* brt2109_hw5UITests */,
+				E37507A6204A764A00563662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E37507A6204A764A00563662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E37507A5204A764A00563662 /* brt2109_hw5.app */,
+				E37507B9204A764A00563662 /* brt2109_hw5Tests.xctest */,
+				E37507C4204A764A00563662 /* brt2109_hw5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E37507A7204A764A00563662 /* brt2109_hw5 */ = {
+			isa = PBXGroup;
+			children = (
+				E37507A8204A764A00563662 /* AppDelegate.swift */,
+				E37507AA204A764A00563662 /* LoginViewController.swift */,
+				E3E9FDD6204B079D00C71EEF /* TableViewCell.swift */,
+				E37507D6204A769800563662 /* TableViewController.swift */,
+				E37507AC204A764A00563662 /* Main.storyboard */,
+				E37507AF204A764A00563662 /* Assets.xcassets */,
+				E37507B1204A764A00563662 /* LaunchScreen.storyboard */,
+				E37507B4204A764A00563662 /* Info.plist */,
+			);
+			path = brt2109_hw5;
+			sourceTree = "<group>";
+		};
+		E37507BC204A764A00563662 /* brt2109_hw5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E37507BD204A764A00563662 /* brt2109_hw5Tests.swift */,
+				E37507BF204A764A00563662 /* Info.plist */,
+			);
+			path = brt2109_hw5Tests;
+			sourceTree = "<group>";
+		};
+		E37507C7204A764A00563662 /* brt2109_hw5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E37507C8204A764A00563662 /* brt2109_hw5UITests.swift */,
+				E37507CA204A764A00563662 /* Info.plist */,
+			);
+			path = brt2109_hw5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E37507A4204A764A00563662 /* brt2109_hw5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37507CD204A764A00563662 /* Build configuration list for PBXNativeTarget "brt2109_hw5" */;
+			buildPhases = (
+				E37507A1204A764A00563662 /* Sources */,
+				E37507A2204A764A00563662 /* Frameworks */,
+				E37507A3204A764A00563662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brt2109_hw5;
+			productName = brt2109_hw5;
+			productReference = E37507A5204A764A00563662 /* brt2109_hw5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E37507B8204A764A00563662 /* brt2109_hw5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37507D0204A764A00563662 /* Build configuration list for PBXNativeTarget "brt2109_hw5Tests" */;
+			buildPhases = (
+				E37507B5204A764A00563662 /* Sources */,
+				E37507B6204A764A00563662 /* Frameworks */,
+				E37507B7204A764A00563662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37507BB204A764A00563662 /* PBXTargetDependency */,
+			);
+			name = brt2109_hw5Tests;
+			productName = brt2109_hw5Tests;
+			productReference = E37507B9204A764A00563662 /* brt2109_hw5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E37507C3204A764A00563662 /* brt2109_hw5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E37507D3204A764A00563662 /* Build configuration list for PBXNativeTarget "brt2109_hw5UITests" */;
+			buildPhases = (
+				E37507C0204A764A00563662 /* Sources */,
+				E37507C1204A764A00563662 /* Frameworks */,
+				E37507C2204A764A00563662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E37507C6204A764A00563662 /* PBXTargetDependency */,
+			);
+			name = brt2109_hw5UITests;
+			productName = brt2109_hw5UITests;
+			productReference = E37507C4204A764A00563662 /* brt2109_hw5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E375079D204A764A00563662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Breana Tate";
+				TargetAttributes = {
+					E37507A4204A764A00563662 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E37507B8204A764A00563662 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E37507A4204A764A00563662;
+					};
+					E37507C3204A764A00563662 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E37507A4204A764A00563662;
+					};
+				};
+			};
+			buildConfigurationList = E37507A0204A764A00563662 /* Build configuration list for PBXProject "brt2109_hw5" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E375079C204A764A00563662;
+			productRefGroup = E37507A6204A764A00563662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E37507A4204A764A00563662 /* brt2109_hw5 */,
+				E37507B8204A764A00563662 /* brt2109_hw5Tests */,
+				E37507C3204A764A00563662 /* brt2109_hw5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E37507A3204A764A00563662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37507B3204A764A00563662 /* LaunchScreen.storyboard in Resources */,
+				E37507B0204A764A00563662 /* Assets.xcassets in Resources */,
+				E37507AE204A764A00563662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37507B7204A764A00563662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37507C2204A764A00563662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E37507A1204A764A00563662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E9FDD7204B079D00C71EEF /* TableViewCell.swift in Sources */,
+				E37507AB204A764A00563662 /* LoginViewController.swift in Sources */,
+				E37507D7204A769800563662 /* TableViewController.swift in Sources */,
+				E37507A9204A764A00563662 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37507B5204A764A00563662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37507BE204A764A00563662 /* brt2109_hw5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37507C0204A764A00563662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37507C9204A764A00563662 /* brt2109_hw5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E37507BB204A764A00563662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E37507A4204A764A00563662 /* brt2109_hw5 */;
+			targetProxy = E37507BA204A764A00563662 /* PBXContainerItemProxy */;
+		};
+		E37507C6204A764A00563662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E37507A4204A764A00563662 /* brt2109_hw5 */;
+			targetProxy = E37507C5204A764A00563662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E37507AC204A764A00563662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37507AD204A764A00563662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E37507B1204A764A00563662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E37507B2204A764A00563662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E37507CB204A764A00563662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E37507CC204A764A00563662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E37507CE204A764A00563662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brt2109_hw5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Breana.brt2109-hw5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E37507CF204A764A00563662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brt2109_hw5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Breana.brt2109-hw5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E37507D1204A764A00563662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brt2109_hw5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Breana.brt2109-hw5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brt2109_hw5.app/brt2109_hw5";
+			};
+			name = Debug;
+		};
+		E37507D2204A764A00563662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brt2109_hw5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Breana.brt2109-hw5Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brt2109_hw5.app/brt2109_hw5";
+			};
+			name = Release;
+		};
+		E37507D4204A764A00563662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brt2109_hw5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Breana.brt2109-hw5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brt2109_hw5;
+			};
+			name = Debug;
+		};
+		E37507D5204A764A00563662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = brt2109_hw5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Breana.brt2109-hw5UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brt2109_hw5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E37507A0204A764A00563662 /* Build configuration list for PBXProject "brt2109_hw5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37507CB204A764A00563662 /* Debug */,
+				E37507CC204A764A00563662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37507CD204A764A00563662 /* Build configuration list for PBXNativeTarget "brt2109_hw5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37507CE204A764A00563662 /* Debug */,
+				E37507CF204A764A00563662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37507D0204A764A00563662 /* Build configuration list for PBXNativeTarget "brt2109_hw5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37507D1204A764A00563662 /* Debug */,
+				E37507D2204A764A00563662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E37507D3204A764A00563662 /* Build configuration list for PBXNativeTarget "brt2109_hw5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E37507D4204A764A00563662 /* Debug */,
+				E37507D5204A764A00563662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E375079D204A764A00563662 /* Project object */;
+}
